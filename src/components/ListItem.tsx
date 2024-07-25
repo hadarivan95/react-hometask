@@ -1,5 +1,7 @@
 import { ChangeEvent, useState } from 'react';
-import { IResult, updateName } from '../api/service';
+import { IResult } from '../api/service';
+// import {  updateName } from '../api/service'; // mock api request 
+
 import { Col, Form, Image, Row } from 'react-bootstrap';
 import moment from 'moment';
 import './styles.css';
